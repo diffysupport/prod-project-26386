@@ -20,7 +20,6 @@ basic:
 advanced:
     mask: ''
     remove: ''
-    isolate: ''
     delay: 15
     scroll: true
     headers:
@@ -30,6 +29,9 @@ advanced:
     custom_css: ''
     mock_content:
         - { selector: '', type: title }
+    sensitivity: 30
+    night_mode: false
+    retina_images: false
     login:
         type: none
         click_element: false
@@ -47,3 +49,5 @@ advanced:
         workers_production_delay: 0
         workers_nonproduction_delay: 0
     stabilize: true
+proxy: false
+type: single-site
